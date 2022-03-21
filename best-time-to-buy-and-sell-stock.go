@@ -46,3 +46,28 @@ func maxProfit(prices []int) int {
 	}
 	return maxProfit
 }
+
+// Optimized approach
+
+//Time complexity - O(n)
+//Space complexity - O(1)
+// store MinValue So Far in a var and compare it with every element
+func maxProfit(prices []int) int {
+    maxProfit := 0
+    profit := 0 
+    minSoFar := prices[0]
+    for i := 1; i < len(prices); i++ {
+
+       if prices[i] < minSoFar {
+			minSoFar = prices[i]
+		}
+      profit = prices[i] - minSoFar
+		if maxProfit < profit {
+			maxProfit = profit
+		}
+
+ 
+	}
+	return maxProfit
+}
+
