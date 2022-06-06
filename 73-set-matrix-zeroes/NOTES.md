@@ -1,4 +1,6 @@
-Using extra space
+Using constant extra space
 ​
-rowToSet0 := make([]int, m)
-columnToSet0 := make([]int, n)
+clearRow := make([]int, m)  // which rows needs to be set as 0
+clearColumn := make([]int, n) // column needs to be set as 0
+​
+​
