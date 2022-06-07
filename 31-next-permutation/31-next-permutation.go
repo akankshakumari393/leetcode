@@ -4,17 +4,16 @@ func nextPermutation(nums []int)  {
     for i:= n-2; i>=0; i-- {
         if nums[i] < nums[i+1]{
             localMaximaBreak = i
-    for i:= n-1; i>=0; i-- {
-        if nums[i] > nums[localMaximaBreak] {
-            nums[i], nums[localMaximaBreak] = nums[localMaximaBreak], nums[i]
-            break
+            for i:= n-1; i>=localMaximaBreak; i-- {
+                if nums[i] > nums[localMaximaBreak] {
+                    nums[i], nums[localMaximaBreak] = nums[localMaximaBreak], nums[i]
+                    goto out
+                }
+            }
         }
     }
-       
-            
-            break
-        }
-    }
+    
+    out:
     for i, j :=(localMaximaBreak+1), n-1; i < j; i, j = i+1, j-1 {
         nums[i], nums[j] = nums[j], nums[i]
     }
