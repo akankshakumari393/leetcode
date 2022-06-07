@@ -1,6 +1,8 @@
 func nextPermutation(nums []int)  {
     n := len(nums)
+    
     localMaximaBreak := -1
+    
     for i:= n-2; i>=0; i-- {
         if nums[i] < nums[i+1]{
             localMaximaBreak = i
