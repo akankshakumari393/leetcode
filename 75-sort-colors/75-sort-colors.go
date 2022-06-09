@@ -1,5 +1,4 @@
 func sortColors(nums []int)  {
-    n := len(nums)
     //Time complexity O(2N)
     
     // count0 := 0
@@ -26,7 +25,7 @@ func sortColors(nums []int)  {
 
     // Dutch national flag algorithm
    
-    for low, mid, high := 0, 0, n-1 ; mid <= high;  {
+    for low, mid, high := 0, 0, len(nums)-1 ; mid <= high;  {
         switch nums[mid] {
         case 0 : 
             nums[low], nums[mid] = nums[mid], nums[low]
