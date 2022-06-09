@@ -1,9 +1,8 @@
 # Dutch national flag algorithm
 ​
 ## Rule
-[0 .. low-1] -> 0
-​
-[high + 1 ..... n ] -> 2
+[0 .. low-1] -> 0 \
+[high + 1 ..... n ] -> 2 \
 ​
 ## Initially
 high == n-1 \
