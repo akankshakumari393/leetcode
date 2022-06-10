@@ -17,68 +17,61 @@
 // }
 
 
-// Optimized approach
+// // Optimized approach
 
-//Time complexity - O(2n)
-//Space complexity - O(n)
+// //Time complexity - O(2n)
+// //Space complexity - O(n)
 
-// By Traversing Backward get the maximum amount by selling stock on that particular day
+// // By Traversing Backward get the maximum amount by selling stock on that particular day
+// func maxProfit(prices []int) int {
+// 	var maxProfit int
+// 	var profit int
+// 	maxSell := make([]int, len(prices))
+// 	maxSell[len(prices)-1] = prices[len(prices)-1]
+// 	for i := len(prices) - 2; i >= 0; i-- {
+
+// 		if maxSell[i+1] > prices[i] {
+// 			maxSell[i] = maxSell[i+1]
+// 		} else {
+// 			maxSell[i] = prices[i]
+// 		}
+// 	}
+// 	// By now we have a slice maxSell which specify that on a particular day what would be the maximum value of the stock in future if we plan to buy on that day
+// 	// we now have to calculate the profit and keep the maximum in a variable
+// 	for i := 0; i < len(prices); i++ {
+// 		// calculate profit by buying on ith day, we already know the max price of that stock in future
+// 		profit = maxSell[i] - prices[i]
+// 		if profit > maxProfit {
+// 			maxProfit = profit
+// 		}
+// 	}
+// 	return maxProfit
+// }
+
+
+//Time complexity - O(n)
+//Space complexity - O(1)
+
 func maxProfit(prices []int) int {
-	var maxProfit int
-	var profit int
-	maxSell := make([]int, len(prices))
-	maxSell[len(prices)-1] = prices[len(prices)-1]
-	for i := len(prices) - 2; i >= 0; i-- {
-
-		if maxSell[i+1] > prices[i] {
-			maxSell[i] = maxSell[i+1]
-		} else {
-			maxSell[i] = prices[i]
-		}
-	}
-	// By now we have a slice maxSell which specify that on a particular day what would be the maximum value of the stock in future if we plan to buy on that day
-	// we now have to calculate the profit and keep the maximum in a variable
-	for i := 0; i < len(prices); i++ {
-		// calculate profit by buying on ith day, we already know the max price of that stock in future
-		profit = maxSell[i] - prices[i]
-		if profit > maxProfit {
-			maxProfit = profit
-		}
-	}
-	return maxProfit
+    minPrice := math.MaxInt32
+    maxProfit := 0
+    for _, price := range prices {
+        minPrice = min(minPrice, price)
+        maxProfit = max(maxProfit, (price - minPrice))
+    }
+    return maxProfit
 }
 
+func min(a, b int) int {
+    if a > b {
+        return b
+    }
+    return a
+}
 
-
-
-
-
-
-
-
-
-
-
-// func maxProfit(prices []int) int {
-//     minPrice := math.MaxInt32
-//     maxProfit := 0
-//     for _, price := range prices {
-//         minPrice = min(minPrice, price)
-//         maxProfit = max(maxProfit, (price - minPrice))
-//     }
-//     return maxProfit
-// }
-
-// func min(a, b int) int {
-//     if a > b {
-//         return b
-//     }
-//     return a
-// }
-
-// func max(a, b int) int {
-//     if a > b {
-//         return a
-//     }
-//     return b
-// }
+func max(a, b int) int {
+    if a > b {
+        return a
+    }
+    return b
+}
