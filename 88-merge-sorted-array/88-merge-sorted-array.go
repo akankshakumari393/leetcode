@@ -9,8 +9,6 @@ func merge(nums1 []int, m int, nums2 []int, n int)  {
             nums1[i], nums2[0] = nums2[0], nums1[i]
             sort(nums2)
         }
-        fmt.Println(nums1)
-        fmt.Println(nums2)
     }   
     // copy element from nums2 into nums1 from mth position
     copy(nums1[m:], nums2)
@@ -24,5 +22,4 @@ func sort(arr []int) {
             arr[i], arr[i-1] = arr[i-1], arr[i]
         } 
     }
-        fmt.Println(arr)    
 }
