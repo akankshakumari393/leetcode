@@ -1,5 +1,7 @@
 func uniquePaths(m int, n int) int {
-    return uniquePathsDP(m, n)
+    return uniquePathsCombinations(m, n)
+
+//    return uniquePathsDP(m, n)
     //return countPaths(0,0,m,n) 
 }
 // recursive approach
@@ -34,4 +36,17 @@ func uniquePathsDP(m int, n int) int {
         }
     }
     return dp[0][0]
+}
+
+// mathematical calculatiosns - combinatiosns
+
+func uniquePathsCombinations(m int, n int) int{
+    N := n + m - 2 // steps in each path
+    r := m - 1 
+    res := 1
+
+    for i := 1; i <= r; i++ {
+        res = res * (N - r + i) / i  //NCr       
+    }
+    return res
 }
