@@ -23,10 +23,10 @@ func uniquePathsDP(m int, n int) int {
     dp := make([][]int, m) // initialize a slice of m elements
     for idx, _ := range dp {
         dp[idx] = make([]int, n) // initialize each row
-        dp[idx][n-1] = 1
+        dp[idx][n-1] = 1 //initailize the last column as 1
     }
     for idx, _ := range dp[0] {
-        dp[m-1][idx] = 1
+        dp[m-1][idx] = 1  // intialize last row as 1
     }
     for i:=m-2; i >= 0; i-- {
         for j:=n-2; j >= 0; j-- {
