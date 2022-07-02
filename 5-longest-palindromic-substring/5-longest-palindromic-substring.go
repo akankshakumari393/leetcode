@@ -6,10 +6,11 @@ func longestPalindrome(s string) string {
 	var maxStart, maxLen int
 	for i := 0; i < l; {
 		left, right := i, i
+        // check for same character
 		for right < l-1 && s[right] == s[right+1] {
 			right++
 		}
-		i = right + 1
+		i = right + 1 // in next loop start from here
 		for left > 0 && right < l-1 && s[left-1] == s[right+1] {
 			left--
 			right++
