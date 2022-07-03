@@ -9,7 +9,6 @@ func rotateRight(head *ListNode, k int) *ListNode {
     if head == nil ||head.Next == nil || k== 0 {
         return head
     }
-    fmt.Println(head.Val)
     // calculate length
     cur := head
     count := 1
@@ -17,7 +16,7 @@ func rotateRight(head *ListNode, k int) *ListNode {
         count++
         cur = cur.Next
     }
-    fmt.Println(count)
+
     if k >= count {
         k= k % count
     }
