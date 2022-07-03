@@ -4,13 +4,13 @@ func combine(n int, k int) [][]int {
 	for i := 1; i <= n; i++ {
 		candidates = append(candidates, i)
 	}
-    findCombination([]int{}, n, k, candidates, &result)
+    findCombination([]int{}, k, candidates, &result)
     return result    
 }
 
 // T: O(n!)
 // S: O(n!)
-func findCombination(included []int, n int, k int, left []int, result *[][]int) {
+func findCombination(included []int, k int, left []int, result *[][]int) {
     if len(included) == k {
         ans1 := append([]int{}, included...)
         *result = append(*result, ans1)
@@ -19,7 +19,6 @@ func findCombination(included []int, n int, k int, left []int, result *[][]int) 
     for idx, l := range left{
         findCombination(
             append(included, l),
-            n,
             k,
             append([]int{}, left[idx+1:]...),
             result)        
