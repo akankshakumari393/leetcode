@@ -31,9 +31,7 @@ func rotateRight(head *ListNode, k int) *ListNode {
         cur = cur.Next
     }
     head = cur.Next
-    cur.Next = nil
-    cur.Next= nil
-   
+    cur.Next = nil  
     
     return head
     
