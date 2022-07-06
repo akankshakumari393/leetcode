@@ -2,6 +2,7 @@
 Leetcode solutions(Golang)
 
 [1-two-sum](https://github.com/akankshakumari393/leetcode/tree/master/1-two-sum) \
+[15-3sum](https://github.com/akankshakumari393/leetcode/tree/master/15-3sum) \
 [4-median-of-two-sorted-arrays](https://github.com/akankshakumari393/leetcode/tree/master/4-median-of-two-sorted-arrays) \
 [5-longest-palindromic-substring](https://github.com/akankshakumari393/leetcode/tree/master/5-longest-palindromic-substring) \
 [8-string-to-integer-atoi](https://github.com/akankshakumari393/leetcode/tree/master/8-string-to-integer-atoi) \
