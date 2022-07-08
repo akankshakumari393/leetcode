@@ -10,7 +10,7 @@ func cloneGraph(node *Node) *Node {
     if node == nil {
         return nil
     }
-    return clone(node, make(map[int]*Node, len(node.Neighbors)+1))    
+    return clone(node, make(map[int]*Node))    
 }
 func clone(node *Node, hm map[int]*Node) *Node {
     if node, ok := hm[node.Val]; ok {
