@@ -9,6 +9,7 @@ Leetcode solutions(Golang)
 [12-integer-to-roman](https://github.com/akankshakumari393/leetcode/tree/master/12-integer-to-roman) \
 [20-valid-parentheses](https://github.com/akankshakumari393/leetcode/tree/master/20-valid-parentheses) \
 [31-next-permutation](https://github.com/akankshakumari393/leetcode/tree/master/31-next-permutation) \
+[34-find-first-and-last-position-of-element-in-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/34-find-first-and-last-position-of-element-in-sorted-array) \
 [36-valid-sudoku](https://github.com/akankshakumari393/leetcode/tree/master/36-valid-sudoku) \
 [39-combination-sum](https://github.com/akankshakumari393/leetcode/tree/master/39-combination-sum) \
 [46-permutations](https://github.com/akankshakumari393/leetcode/tree/master/46-permutations) \
@@ -17,6 +18,7 @@ Leetcode solutions(Golang)
 [56-merge-intervals](https://github.com/akankshakumari393/leetcode/tree/master/56-merge-intervals) \
 [61-rotate-list](https://github.com/akankshakumari393/leetcode/tree/master/61-rotate-list) \
 [62-unique-paths](https://github.com/akankshakumari393/leetcode/tree/master/62-unique-paths) \
+[66-plus-one](https://github.com/akankshakumari393/leetcode/tree/master/66-plus-one) \
 [73-set-matrix-zeroes](https://github.com/akankshakumari393/leetcode/tree/master/73-set-matrix-zeroes) \
 [74-search-a-2d-matrix](https://github.com/akankshakumari393/leetcode/tree/master/74-search-a-2d-matrix) \
 [75-sort-colors](https://github.com/akankshakumari393/leetcode/tree/master/75-sort-colors) \
@@ -26,13 +28,23 @@ Leetcode solutions(Golang)
 [98-validate-binary-search-tree](https://github.com/akankshakumari393/leetcode/tree/master/98-validate-binary-search-tree) \
 [100-same-tree](https://github.com/akankshakumari393/leetcode/tree/master/100-same-tree) \
 [101-symmetric-tree](https://github.com/akankshakumari393/leetcode/tree/master/101-symmetric-tree) \
+[102-binary-tree-level-order-traversal](https://github.com/akankshakumari393/leetcode/tree/master/102-binary-tree-level-order-traversal) \
+[104-maximum-depth-of-binary-tree](https://github.com/akankshakumari393/leetcode/tree/master/104-maximum-depth-of-binary-tree) \
+[108-convert-sorted-array-to-binary-search-tree](https://github.com/akankshakumari393/leetcode/tree/master/108-convert-sorted-array-to-binary-search-tree) \
+[111-minimum-depth-of-binary-tree](https://github.com/akankshakumari393/leetcode/tree/master/111-minimum-depth-of-binary-tree) \
+[118-pascals-triangle](https://github.com/akankshakumari393/leetcode/tree/master/118-pascals-triangle) \
 [121-best-time-to-buy-and-sell-stock](https://github.com/akankshakumari393/leetcode/tree/master/121-best-time-to-buy-and-sell-stock) \
+[130-surrounded-regions](https://github.com/akankshakumari393/leetcode/tree/master/130-surrounded-regions) \
+[133-clone-graph](https://github.com/akankshakumari393/leetcode/tree/master/133-clone-graph) \
 [169-majority-element](https://github.com/akankshakumari393/leetcode/tree/master/169-majority-element) \
 [200-number-of-islands](https://github.com/akankshakumari393/leetcode/tree/master/200-number-of-islands) \
 [207-course-schedule](https://github.com/akankshakumari393/leetcode/tree/master/207-course-schedule) \
 [210-course-schedule-ii](https://github.com/akankshakumari393/leetcode/tree/master/210-course-schedule-ii) \
 [217-contains-duplicate](https://github.com/akankshakumari393/leetcode/tree/master/217-contains-duplicate) \
+[229-majority-element-ii](https://github.com/akankshakumari393/leetcode/tree/master/229-majority-element-ii) \
 [287-find-the-duplicate-number](https://github.com/akankshakumari393/leetcode/tree/master/287-find-the-duplicate-number) \
 [289-game-of-life](https://github.com/akankshakumari393/leetcode/tree/master/289-game-of-life) \
 [350-intersection-of-two-arrays-ii](https://github.com/akankshakumari393/leetcode/tree/master/350-intersection-of-two-arrays-ii) \
-[540-single-element-in-a-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/540-single-element-in-a-sorted-array)
+[461-hamming-distance](https://github.com/akankshakumari393/leetcode/tree/master/461-hamming-distance) \
+[540-single-element-in-a-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/540-single-element-in-a-sorted-array) \
+[559-maximum-depth-of-n-ary-tree](https://github.com/akankshakumari393/leetcode/tree/master/559-maximum-depth-of-n-ary-tree)
