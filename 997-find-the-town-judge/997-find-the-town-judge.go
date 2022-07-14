@@ -4,16 +4,16 @@ func findJudge(n int, trust [][]int) int {
 		return 1
 	}
 	trusteeH := map[int]int{}
-	trustSrcH := map[int]int{}
+    trustSrcH := make([]int, n) 
 
     for _, t := range trust {
-		trustSrcH[t[0]]++
+		trustSrcH[t[0]-1]++
 		trusteeH[t[1]]++
 	}
 	
 	nM1 := n - 1
 	for k := range trusteeH {
-		if trusteeH[k] == nM1 && trustSrcH[k] == 0 {
+		if trusteeH[k] == nM1 && trustSrcH[k-1] == 0 {
 			return k
 		}
 	}
