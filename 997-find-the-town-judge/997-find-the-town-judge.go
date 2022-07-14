@@ -3,20 +3,18 @@ func findJudge(n int, trust [][]int) int {
 	if n == 1 {
 		return 1
 	}
-	trusteeH := map[int]int{}
-    trustSrcH := make([]int, n) 
+    trustPerson := make([]int, n) 
 
     for _, t := range trust {
-		trustSrcH[t[0]-1]++
-		trusteeH[t[1]]++
+		trustPerson[t[0]-1]--
+		trustPerson[t[1]-1]++
 	}
 	
-	nM1 := n - 1
-	for k := range trusteeH {
-		if trusteeH[k] == nM1 && trustSrcH[k-1] == 0 {
-			return k
+	for k := range trustPerson {
+		if trustPerson[k] == n-1 {
+			return k+1
 		}
 	}
-	return -1    
+	return -1
 }
 
