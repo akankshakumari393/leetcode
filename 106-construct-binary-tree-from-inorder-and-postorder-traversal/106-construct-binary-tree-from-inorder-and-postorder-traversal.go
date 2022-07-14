@@ -6,12 +6,15 @@
  *     Right *TreeNode
  * }
  */
-// Example -
 
-// inorder [4, 8, 2, 5, 1, 6, 3, 7]
-// postorder [8, 4, 5, 2, 6, 7, 3, 1]
-
-// initially index is 4
+/**
+* Example -
+* 
+* inorder [4, 8, 2, 5, 1, 6, 3, 7]
+* postorder [8, 4, 5, 2, 6, 7, 3, 1]
+* 
+* initially index is 4
+*/
 func buildTree(inorder []int, postorder []int) *TreeNode {
        if len(postorder) == 0 {
         return nil
