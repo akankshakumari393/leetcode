@@ -1,4 +1,3 @@
-//If any person is truested exactly n-1 times and that doesn't trust anyone then that person is the Judge
 func findJudge(n int, trust [][]int) int {
 	if n == 1 {
 		return 1
@@ -6,7 +5,9 @@ func findJudge(n int, trust [][]int) int {
     trustPerson := make([]int, n) 
 
     for _, t := range trust {
+        // the person trust someone
 		trustPerson[t[0]-1]--
+        // the person is trusted by someone
 		trustPerson[t[1]-1]++
 	}
 	
