@@ -18,10 +18,10 @@ func BruteForceFindPaths(m int, n int, N int, i int, j int) int {
 func Dynamic(m int, n int, N int, i int, j int) int{
     mod := int(math.Pow10(9) + 7)
     dp := make([][][]int, N + 1)
-    for i := range dp {
-        dp[i] = make([][]int, m)
-        for I := range dp[i] {
-            dp[i][I] = make([]int, n)
+    for grid := range dp {
+        dp[grid] = make([][]int, m)
+        for row := range dp[grid] {
+            dp[grid][row] = make([]int, n)
         }
     }
     dirs := [][]int{{-1, 0}, {1, 0}, {0, -1}, {0, 1}}
