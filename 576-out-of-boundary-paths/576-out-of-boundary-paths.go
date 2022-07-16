@@ -15,7 +15,7 @@ func BruteForceFindPaths(m int, n int, N int, i int, j int) int {
     return BruteForceFindPaths(m, n, N - 1, i - 1, j) + BruteForceFindPaths(m, n, N - 1, i + 1, j) + BruteForceFindPaths(m, n, N - 1, i, j - 1) + BruteForceFindPaths(m, n, N - 1, i, j + 1)
 }    
 
-func Dynamic(m int, n int, N int, i int, j int) int{
+func Dynamic(m int, n int, N int, startRow int, startColumn int) int{
     mod := int(math.Pow10(9) + 7)
     dp := make([][][]int, N + 1)
     for grid := range dp {
@@ -40,5 +40,5 @@ func Dynamic(m int, n int, N int, i int, j int) int{
             }
         }
     }
-    return dp[N][i][j]
+    return dp[N][startRow][startColumn]
 }
