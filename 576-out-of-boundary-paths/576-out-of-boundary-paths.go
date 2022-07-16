@@ -26,15 +26,15 @@ func Dynamic(m int, n int, N int, startRow int, startColumn int) int{
     }
     dirs := [][]int{{-1, 0}, {1, 0}, {0, -1}, {0, 1}}
     for s := 1; s <= N; s++ {
-        for x := 0; x < m; x++ {
-            for y := 0; y < n; y++ {
+        for i := 0; i < m; i++ {
+            for j := 0; j < n; j++ {
                 for _, dir := range dirs {
-                    tx := dir[0] + x
-                    ty := dir[1] + y
+                    tx := dir[0] + i
+                    ty := dir[1] + j
                     if ty < 0 || tx < 0 || ty >= n || tx >= m {
-                        dp[s][x][y] += 1
+                        dp[s][i][j] += 1
                     } else {
-                        dp[s][x][y] = (dp[s][x][y] + dp[s-1][tx][ty]) % mod
+                        dp[s][i][j] = (dp[s][i][j] + dp[s-1][tx][ty]) % mod
                     }
                 }
             }
