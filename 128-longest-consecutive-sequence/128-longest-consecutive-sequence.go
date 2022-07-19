@@ -4,7 +4,7 @@ func longestConsecutive(nums []int) int {
     for _, ele := range nums {
         hmap[ele] = 1
     }
-    fmt.Println(hmap)
+
     longestStreak := 0
     for num, _ := range hmap {
         if _, ok := hmap[num-1]; ok {
@@ -13,7 +13,7 @@ func longestConsecutive(nums []int) int {
         currentNum := num
         currentStreak := 1
         
-        for ;true; {
+        for ;; {
             if hmap[currentNum+1] == 1 {
                   currentNum = currentNum + 1
                   currentStreak = currentStreak + 1
