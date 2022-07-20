@@ -1,3 +1,4 @@
+// Using HashMap and Queue
 func numMatchingSubseq(s string, words []string) int {
     slice := []byte(s)
     hashmap := make(map[byte][]int)
@@ -10,8 +11,8 @@ func numMatchingSubseq(s string, words []string) int {
         prev_pos := -1
         i := 0
         for ; i<len(word); i++ {
-            if arr, ok := hashmap[word[i]]; ok {
-                curr_pos := getCurPosGretThanPrev(prev_pos, arr)
+            if queue, ok := hashmap[word[i]]; ok {
+                curr_pos := getCurPosGretThanPrev(prev_pos, queue)
                 if curr_pos == -1 {
                     break
                 }
