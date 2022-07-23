@@ -5,6 +5,7 @@
  *     Next *ListNode
  * }
  */
+// TWO POINTER APPROACH
 func middleNode(head *ListNode) *ListNode {
     if head == nil || head.Next == nil {
         return head
