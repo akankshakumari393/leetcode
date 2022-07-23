@@ -6,19 +6,14 @@
  * }
  */
 func middleNode(head *ListNode) *ListNode {
-    if head == nil {
-        return nil
+    if head == nil || head.Next == nil {
+        return head
     }
-    length := lengthOfLinkedList(head)
-    for i:=1; i<=length/2 ;i++ {
-        head = head.Next       
+    slow := head
+    fast := head
+    for fast != nil && fast.Next != nil {
+        slow = slow.Next
+        fast = fast.Next.Next        
     }
-    return head
-}
-
-func lengthOfLinkedList(head *ListNode) int {
-    if head == nil {
-        return 0
-    }
-    return 1 + lengthOfLinkedList(head.Next)
+    return slow
 }
