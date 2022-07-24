@@ -38,7 +38,7 @@ Leetcode solutions(Golang)
 [15-3sum](https://github.com/akankshakumari393/leetcode/tree/master/15-3sum) \
 [20-valid-parentheses](https://github.com/akankshakumari393/leetcode/tree/master/20-valid-parentheses) \
 [31-next-permutation](https://github.com/akankshakumari393/leetcode/tree/master/31-next-permutation) \
-[33-search-in-rotated-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/33-search-in-rotated-sorted-array) \ 
+[33-search-in-rotated-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/33-search-in-rotated-sorted-array) \
 [34-find-first-and-last-position-of-element-in-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/34-find-first-and-last-position-of-element-in-sorted-array) \
 [36-valid-sudoku](https://github.com/akankshakumari393/leetcode/tree/master/36-valid-sudoku) \
 [39-combination-sum](https://github.com/akankshakumari393/leetcode/tree/master/39-combination-sum) \
