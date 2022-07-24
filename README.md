@@ -38,11 +38,13 @@ Leetcode solutions(Golang)
 [15-3sum](https://github.com/akankshakumari393/leetcode/tree/master/15-3sum) \
 [20-valid-parentheses](https://github.com/akankshakumari393/leetcode/tree/master/20-valid-parentheses) \
 [31-next-permutation](https://github.com/akankshakumari393/leetcode/tree/master/31-next-permutation) \
+[33-search-in-rotated-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/33-search-in-rotated-sorted-array) \ 
 [34-find-first-and-last-position-of-element-in-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/34-find-first-and-last-position-of-element-in-sorted-array) \
 [36-valid-sudoku](https://github.com/akankshakumari393/leetcode/tree/master/36-valid-sudoku) \
 [39-combination-sum](https://github.com/akankshakumari393/leetcode/tree/master/39-combination-sum) \
 [46-permutations](https://github.com/akankshakumari393/leetcode/tree/master/46-permutations) \
 [48-rotate-image](https://github.com/akankshakumari393/leetcode/tree/master/48-rotate-image) \
+[49-group-anagrams](https://github.com/akankshakumari393/leetcode/tree/master/49-group-anagrams) \
 [53-maximum-subarray](https://github.com/akankshakumari393/leetcode/tree/master/53-maximum-subarray) \
 [56-merge-intervals](https://github.com/akankshakumari393/leetcode/tree/master/56-merge-intervals) \
 [61-rotate-list](https://github.com/akankshakumari393/leetcode/tree/master/61-rotate-list) \
@@ -84,6 +86,7 @@ Leetcode solutions(Golang)
 [289-game-of-life](https://github.com/akankshakumari393/leetcode/tree/master/289-game-of-life) \
 [350-intersection-of-two-arrays-ii](https://github.com/akankshakumari393/leetcode/tree/master/350-intersection-of-two-arrays-ii) \
 [461-hamming-distance](https://github.com/akankshakumari393/leetcode/tree/master/461-hamming-distance) \
+[520-detect-capital](https://github.com/akankshakumari393/leetcode/tree/master/520-detect-capital) \
 [540-single-element-in-a-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/540-single-element-in-a-sorted-array) \
 [543-diameter-of-binary-tree](https://github.com/akankshakumari393/leetcode/tree/master/543-diameter-of-binary-tree) \
 [559-maximum-depth-of-n-ary-tree](https://github.com/akankshakumari393/leetcode/tree/master/559-maximum-depth-of-n-ary-tree) \
