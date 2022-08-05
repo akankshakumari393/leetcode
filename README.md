@@ -73,7 +73,7 @@ Leetcode solutions(Golang)
 [130-surrounded-regions](https://github.com/akankshakumari393/leetcode/tree/master/130-surrounded-regions) \
 [133-clone-graph](https://github.com/akankshakumari393/leetcode/tree/master/133-clone-graph) \
 [169-majority-element](https://github.com/akankshakumari393/leetcode/tree/master/169-majority-element) \
-[199-binary-tree-right-side-view](https://github.com/akankshakumari393/leetcode/tree/master/199-binary-tree-right-side-view)
+[199-binary-tree-right-side-view](https://github.com/akankshakumari393/leetcode/tree/master/199-binary-tree-right-side-view) \
 [200-number-of-islands](https://github.com/akankshakumari393/leetcode/tree/master/200-number-of-islands) \
 [206-reverse-linked-list](https://github.com/akankshakumari393/leetcode/tree/master/206-reverse-linked-list) \
 [207-course-schedule](https://github.com/akankshakumari393/leetcode/tree/master/207-course-schedule) \
@@ -81,6 +81,7 @@ Leetcode solutions(Golang)
 [217-contains-duplicate](https://github.com/akankshakumari393/leetcode/tree/master/217-contains-duplicate) \
 [229-majority-element-ii](https://github.com/akankshakumari393/leetcode/tree/master/229-majority-element-ii) \
 [240-search-a-2d-matrix-ii](https://github.com/akankshakumari393/leetcode/tree/master/240-search-a-2d-matrix-ii) \
+[242-valid-anagram](https://github.com/akankshakumari393/leetcode/tree/master/242-valid-anagram)
 [278-first-bad-version](https://github.com/akankshakumari393/leetcode/tree/master/278-first-bad-version) \
 [287-find-the-duplicate-number](https://github.com/akankshakumari393/leetcode/tree/master/287-find-the-duplicate-number) \
 [289-game-of-life](https://github.com/akankshakumari393/leetcode/tree/master/289-game-of-life) \
@@ -94,9 +95,12 @@ Leetcode solutions(Golang)
 [576-out-of-boundary-paths](https://github.com/akankshakumari393/leetcode/tree/master/576-out-of-boundary-paths) \
 [695-max-area-of-island](https://github.com/akankshakumari393/leetcode/tree/master/695-max-area-of-island) \
 [704-binary-search](https://github.com/akankshakumari393/leetcode/tree/master/704-binary-search) \
+[729-my-calendar-i](https://github.com/akankshakumari393/leetcode/tree/master/729-my-calendar-i) \
 [746-min-cost-climbing-stairs](https://github.com/akankshakumari393/leetcode/tree/master/746-min-cost-climbing-stairs) \
 [792-number-of-matching-subsequences](https://github.com/akankshakumari393/leetcode/tree/master/792-number-of-matching-subsequences) \
+[858-mirror-reflection](https://github.com/akankshakumari393/leetcode/tree/master/858-mirror-reflection) \
 [876-middle-of-the-linked-list](https://github.com/akankshakumari393/leetcode/tree/master/876-middle-of-the-linked-list) \
+[890-find-and-replace-pattern](https://github.com/akankshakumari393/leetcode/tree/master/890-find-and-replace-pattern) \
 [895-maximum-frequency-stack](https://github.com/akankshakumari393/leetcode/tree/master/895-maximum-frequency-stack) \
 [997-find-the-town-judge](https://github.com/akankshakumari393/leetcode/tree/master/997-find-the-town-judge) \
 [1791-find-center-of-star-graph](https://github.com/akankshakumari393/leetcode/tree/master/1791-find-center-of-star-graph)
