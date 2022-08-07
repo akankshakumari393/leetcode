@@ -9,10 +9,10 @@ func deleteDuplicates(head *ListNode) *ListNode {
     if head == nil {
         return nil
     }
+    
     left := head
     right := head
-    
-    
+        
     for right.Next != nil {
         if right.Next.Val != right.Val {
             left.Next = right.Next
@@ -20,6 +20,8 @@ func deleteDuplicates(head *ListNode) *ListNode {
         }
         right = right.Next
     }
+
     left.Next = nil
+    
     return head
 }
