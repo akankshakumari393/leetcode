@@ -73,10 +73,14 @@ Leetcode solutions(Golang)
 [108-convert-sorted-array-to-binary-search-tree](https://github.com/akankshakumari393/leetcode/tree/master/108-convert-sorted-array-to-binary-search-tree) \
 [111-minimum-depth-of-binary-tree](https://github.com/akankshakumari393/leetcode/tree/master/111-minimum-depth-of-binary-tree) \
 [118-pascals-triangle](https://github.com/akankshakumari393/leetcode/tree/master/118-pascals-triangle) \
+[119-pascals-triangle-ii](https://github.com/akankshakumari393/leetcode/tree/master/119-pascals-triangle-ii) \
 [121-best-time-to-buy-and-sell-stock](https://github.com/akankshakumari393/leetcode/tree/master/121-best-time-to-buy-and-sell-stock) \
 [128-longest-consecutive-sequence](https://github.com/akankshakumari393/leetcode/tree/master/128-longest-consecutive-sequence) \
 [130-surrounded-regions](https://github.com/akankshakumari393/leetcode/tree/master/130-surrounded-regions) \
 [133-clone-graph](https://github.com/akankshakumari393/leetcode/tree/master/133-clone-graph) \
+[136-single-number](https://github.com/akankshakumari393/leetcode/tree/master/136-single-number) \
+[144-binary-tree-preorder-traversal](https://github.com/akankshakumari393/leetcode/tree/master/144-binary-tree-preorder-traversal) \
+[145-binary-tree-postorder-traversal](https://github.com/akankshakumari393/leetcode/tree/master/145-binary-tree-postorder-traversal) \
 [169-majority-element](https://github.com/akankshakumari393/leetcode/tree/master/169-majority-element) \
 [199-binary-tree-right-side-view](https://github.com/akankshakumari393/leetcode/tree/master/199-binary-tree-right-side-view) \
 [200-number-of-islands](https://github.com/akankshakumari393/leetcode/tree/master/200-number-of-islands) \
@@ -84,6 +88,8 @@ Leetcode solutions(Golang)
 [207-course-schedule](https://github.com/akankshakumari393/leetcode/tree/master/207-course-schedule) \
 [210-course-schedule-ii](https://github.com/akankshakumari393/leetcode/tree/master/210-course-schedule-ii) \
 [217-contains-duplicate](https://github.com/akankshakumari393/leetcode/tree/master/217-contains-duplicate) \
+[219-contains-duplicate-ii](https://github.com/akankshakumari393/leetcode/tree/master/219-contains-duplicate-ii) \
+[226-invert-binary-tree](https://github.com/akankshakumari393/leetcode/tree/master/226-invert-binary-tree) \
 [229-majority-element-ii](https://github.com/akankshakumari393/leetcode/tree/master/229-majority-element-ii) \
 [240-search-a-2d-matrix-ii](https://github.com/akankshakumari393/leetcode/tree/master/240-search-a-2d-matrix-ii) \
 [242-valid-anagram](https://github.com/akankshakumari393/leetcode/tree/master/242-valid-anagram)
