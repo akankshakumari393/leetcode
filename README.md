@@ -34,9 +34,12 @@ Leetcode solutions(Golang)
 [4-median-of-two-sorted-arrays](https://github.com/akankshakumari393/leetcode/tree/master/4-median-of-two-sorted-arrays) \
 [5-longest-palindromic-substring](https://github.com/akankshakumari393/leetcode/tree/master/5-longest-palindromic-substring) \
 [8-string-to-integer-atoi](https://github.com/akankshakumari393/leetcode/tree/master/8-string-to-integer-atoi) \
+[9-palindrome-number](https://github.com/akankshakumari393/leetcode/tree/master/9-palindrome-number) \
 [12-integer-to-roman](https://github.com/akankshakumari393/leetcode/tree/master/12-integer-to-roman) \
 [15-3sum](https://github.com/akankshakumari393/leetcode/tree/master/15-3sum) \
 [20-valid-parentheses](https://github.com/akankshakumari393/leetcode/tree/master/20-valid-parentheses) \
+[26-remove-duplicates-from-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/26-remove-duplicates-from-sorted-array) \
+[27-remove-element](https://github.com/akankshakumari393/leetcode/tree/master/27-remove-element) \
 [31-next-permutation](https://github.com/akankshakumari393/leetcode/tree/master/31-next-permutation) \
 [33-search-in-rotated-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/33-search-in-rotated-sorted-array) \
 [34-find-first-and-last-position-of-element-in-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/34-find-first-and-last-position-of-element-in-sorted-array) \
@@ -55,6 +58,7 @@ Leetcode solutions(Golang)
 [74-search-a-2d-matrix](https://github.com/akankshakumari393/leetcode/tree/master/74-search-a-2d-matrix) \
 [75-sort-colors](https://github.com/akankshakumari393/leetcode/tree/master/75-sort-colors) \
 [77-combinations](https://github.com/akankshakumari393/leetcode/tree/master/77-combinations) \
+[83-remove-duplicates-from-sorted-list](https://github.com/akankshakumari393/leetcode/tree/master/83-remove-duplicates-from-sorted-list) \
 [88-merge-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/88-merge-sorted-array) \
 [92-reverse-linked-list-ii](https://github.com/akankshakumari393/leetcode/tree/master/92-reverse-linked-list-ii) \
 [94-binary-tree-inorder-traversal](https://github.com/akankshakumari393/leetcode/tree/master/94-binary-tree-inorder-traversal) \
@@ -103,4 +107,5 @@ Leetcode solutions(Golang)
 [890-find-and-replace-pattern](https://github.com/akankshakumari393/leetcode/tree/master/890-find-and-replace-pattern) \
 [895-maximum-frequency-stack](https://github.com/akankshakumari393/leetcode/tree/master/895-maximum-frequency-stack) \
 [997-find-the-town-judge](https://github.com/akankshakumari393/leetcode/tree/master/997-find-the-town-judge) \
-[1791-find-center-of-star-graph](https://github.com/akankshakumari393/leetcode/tree/master/1791-find-center-of-star-graph)
+[1791-find-center-of-star-graph](https://github.com/akankshakumari393/leetcode/tree/master/1791-find-center-of-star-graph) \
+[2013-detect-squares](https://github.com/akankshakumari393/leetcode/tree/master/2013-detect-squares)
