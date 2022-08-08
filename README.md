@@ -96,6 +96,7 @@ Leetcode solutions(Golang)
 [278-first-bad-version](https://github.com/akankshakumari393/leetcode/tree/master/278-first-bad-version) \
 [287-find-the-duplicate-number](https://github.com/akankshakumari393/leetcode/tree/master/287-find-the-duplicate-number) \
 [289-game-of-life](https://github.com/akankshakumari393/leetcode/tree/master/289-game-of-life) \
+[300-longest-increasing-subsequence](https://github.com/akankshakumari393/leetcode/tree/master/300-longest-increasing-subsequence) \
 [350-intersection-of-two-arrays-ii](https://github.com/akankshakumari393/leetcode/tree/master/350-intersection-of-two-arrays-ii) \
 [461-hamming-distance](https://github.com/akankshakumari393/leetcode/tree/master/461-hamming-distance) \
 [520-detect-capital](https://github.com/akankshakumari393/leetcode/tree/master/520-detect-capital) \
