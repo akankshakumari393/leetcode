@@ -84,6 +84,7 @@ Leetcode solutions(Golang)
 [169-majority-element](https://github.com/akankshakumari393/leetcode/tree/master/169-majority-element) \
 [199-binary-tree-right-side-view](https://github.com/akankshakumari393/leetcode/tree/master/199-binary-tree-right-side-view) \
 [200-number-of-islands](https://github.com/akankshakumari393/leetcode/tree/master/200-number-of-islands) \
+[203-remove-linked-list-elements](https://github.com/akankshakumari393/leetcode/tree/master/203-remove-linked-list-elements) \
 [206-reverse-linked-list](https://github.com/akankshakumari393/leetcode/tree/master/206-reverse-linked-list) \
 [207-course-schedule](https://github.com/akankshakumari393/leetcode/tree/master/207-course-schedule) \
 [210-course-schedule-ii](https://github.com/akankshakumari393/leetcode/tree/master/210-course-schedule-ii) \
