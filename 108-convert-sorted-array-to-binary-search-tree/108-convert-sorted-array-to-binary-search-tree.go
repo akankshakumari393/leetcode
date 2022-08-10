@@ -7,15 +7,12 @@
  * }
  */
 func sortedArrayToBST(nums []int) *TreeNode {
-    // find the mid element and make it root
-    mid := (len(nums)-1)/2
-    if mid < 0 || mid >= len(nums){
+    if len(nums) <= 0 {
         return nil
     }
-    node := &TreeNode{}
-    node.Val = nums[mid]
-    // Do the same for Right and left array
-    node.Right = sortedArrayToBST(nums[mid+1:])
-    node.Left = sortedArrayToBST(nums[:mid])
-    return node
+    mid := len(nums)/2
+    root := &TreeNode{Val : nums[mid]}
+    root.Left = sortedArrayToBST(nums[:mid])
+    root.Right = sortedArrayToBST(nums[mid+1:])
+    return root
 }
