@@ -11,16 +11,14 @@ func findMin(nums []int) int {
         mid := (left + right) / 2
         if nums[left] <= nums[mid] && nums[mid] <= nums[right] {
             min = Min(min, nums[left])
-		}        
-        
+		}    
         // if left array is sorted 
         if nums[left] <= nums[mid] {
 			min = Min(min, nums[left])
             left = mid + 1                
-		} else if nums[left] >= nums[mid] { // check for right array sorted
+		} else if nums[left] >= nums[mid] { // right array sorted
 			min = Min(min, nums[mid])
             right = mid - 1
-            
 	    }
     }
 
