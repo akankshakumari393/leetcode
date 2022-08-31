@@ -1,5 +1,5 @@
 func search(nums []int, target int) int {
-	if len(nums) == 0 {
+    if len(nums) == 0 {
 		return -1
 	}
 	left := 0
