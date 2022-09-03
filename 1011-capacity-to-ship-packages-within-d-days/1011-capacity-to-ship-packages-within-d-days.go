@@ -1,3 +1,7 @@
+// Capacity must be >= 10 as max weight is 10. Cargo must to capable enough to take each weight individually.
+// Now we got starting point. What should be our end point?
+// sum(weights)? if this can be the capacity of cargo, we can ship everything day 1.
+
 func shipWithinDays(weights []int, days int) int {
     left, right := findMaxSum(weights)   
     for left < right {
