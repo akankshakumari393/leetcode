@@ -7,7 +7,7 @@ func smallestDivisor(nums []int, threshold int) int {
     for left < right {
         mid := left + (right - left)/2
         
-        // calculate time spent on piles
+        // calculate the result
         result := 0
         for _, num := range nums {
             result += (num/mid)  // find the ceiling
