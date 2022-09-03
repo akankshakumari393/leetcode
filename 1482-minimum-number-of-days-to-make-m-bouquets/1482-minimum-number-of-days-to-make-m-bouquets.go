@@ -1,4 +1,5 @@
 //maxDays - max of the bloomDay  // minDays = min of bloomDay
+// Time Complexity - log(max(bloomDay))
 func minDays(bloomDay []int, m int, k int) int {
     if m*k > len(bloomDay) {
         return -1
