@@ -1,3 +1,4 @@
+// max divisor is max of numbers, min divisor is 1
 func smallestDivisor(nums []int, threshold int) int {
     sort.Ints(nums)
 
@@ -27,4 +28,4 @@ func smallestDivisor(nums []int, threshold int) int {
 }
 
 // TimeComplexity =naive approach -- max(nums)*n
-// TimeComplexity = log(max(pile))
+// TimeComplexity = log(max(nums))
