@@ -125,6 +125,7 @@ Leetcode solutions(Golang)
 [566-reshape-the-matrix](https://github.com/akankshakumari393/leetcode/tree/master/566-reshape-the-matrix) \
 [576-out-of-boundary-paths](https://github.com/akankshakumari393/leetcode/tree/master/576-out-of-boundary-paths) \
 [680-valid-palindrome-ii](https://github.com/akankshakumari393/leetcode/tree/master/680-valid-palindrome-ii) \
+[637-average-of-levels-in-binary-tree](https://github.com/akankshakumari393/leetcode/tree/master/637-average-of-levels-in-binary-tree) \
 [695-max-area-of-island](https://github.com/akankshakumari393/leetcode/tree/master/695-max-area-of-island) \
 [704-binary-search](https://github.com/akankshakumari393/leetcode/tree/master/704-binary-search) \
 [705-design-hashset](https://github.com/akankshakumari393/leetcode/tree/master/705-design-hashset) \
