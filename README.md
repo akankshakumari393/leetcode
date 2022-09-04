@@ -31,6 +31,8 @@ It would take at worst n element to insert/delete an element from a sorted array
 Leetcode solutions(Golang)
 
 [1-two-sum](https://github.com/akankshakumari393/leetcode/tree/master/1-two-sum) \
+[2-add-two-numbers](https://github.com/akankshakumari393/leetcode/tree/master/2-add-two-numbers) \
+[3-longest-substring-without-repeating-characters](https://github.com/akankshakumari393/leetcode/tree/master/3-longest-substring-without-repeating-characters) \
 [4-median-of-two-sorted-arrays](https://github.com/akankshakumari393/leetcode/tree/master/4-median-of-two-sorted-arrays) \
 [5-longest-palindromic-substring](https://github.com/akankshakumari393/leetcode/tree/master/5-longest-palindromic-substring) \
 [8-string-to-integer-atoi](https://github.com/akankshakumari393/leetcode/tree/master/8-string-to-integer-atoi) \
@@ -41,6 +43,7 @@ Leetcode solutions(Golang)
 [14-longest-common-prefix](https://github.com/akankshakumari393/leetcode/tree/master/14-longest-common-prefix) \
 [15-3sum](https://github.com/akankshakumari393/leetcode/tree/master/15-3sum) \
 [20-valid-parentheses](https://github.com/akankshakumari393/leetcode/tree/master/20-valid-parentheses) \
+[21-merge-two-sorted-lists](https://github.com/akankshakumari393/leetcode/tree/master/21-merge-two-sorted-lists) \
 [26-remove-duplicates-from-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/26-remove-duplicates-from-sorted-array) \
 [27-remove-element](https://github.com/akankshakumari393/leetcode/tree/master/27-remove-element) \
 [31-next-permutation](https://github.com/akankshakumari393/leetcode/tree/master/31-next-permutation) \
@@ -52,6 +55,7 @@ Leetcode solutions(Golang)
 [46-permutations](https://github.com/akankshakumari393/leetcode/tree/master/46-permutations) \
 [48-rotate-image](https://github.com/akankshakumari393/leetcode/tree/master/48-rotate-image) \
 [49-group-anagrams](https://github.com/akankshakumari393/leetcode/tree/master/49-group-anagrams) \
+[50-powx-n](https://github.com/akankshakumari393/leetcode/tree/master/50-powx-n) \
 [53-maximum-subarray](https://github.com/akankshakumari393/leetcode/tree/master/53-maximum-subarray) \
 [56-merge-intervals](https://github.com/akankshakumari393/leetcode/tree/master/56-merge-intervals) \
 [58-length-of-last-word](https://github.com/akankshakumari393/leetcode/tree/master/58-length-of-last-word) \
@@ -59,10 +63,13 @@ Leetcode solutions(Golang)
 [62-unique-paths](https://github.com/akankshakumari393/leetcode/tree/master/62-unique-paths) \
 [64-minimum-path-sum](https://github.com/akankshakumari393/leetcode/tree/master/64-minimum-path-sum) \
 [66-plus-one](https://github.com/akankshakumari393/leetcode/tree/master/66-plus-one) \
+[69-sqrtx](https://github.com/akankshakumari393/leetcode/tree/master/69-sqrtx) \
+[70-climbing-stairs](https://github.com/akankshakumari393/leetcode/tree/master/70-climbing-stairs) \
 [73-set-matrix-zeroes](https://github.com/akankshakumari393/leetcode/tree/master/73-set-matrix-zeroes) \
 [74-search-a-2d-matrix](https://github.com/akankshakumari393/leetcode/tree/master/74-search-a-2d-matrix) \
 [75-sort-colors](https://github.com/akankshakumari393/leetcode/tree/master/75-sort-colors) \
 [77-combinations](https://github.com/akankshakumari393/leetcode/tree/master/77-combinations) \
+[81-search-in-rotated-sorted-array-ii](https://github.com/akankshakumari393/leetcode/tree/master/81-search-in-rotated-sorted-array-ii) \
 [83-remove-duplicates-from-sorted-list](https://github.com/akankshakumari393/leetcode/tree/master/83-remove-duplicates-from-sorted-list) \
 [88-merge-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/88-merge-sorted-array) \
 [92-reverse-linked-list-ii](https://github.com/akankshakumari393/leetcode/tree/master/92-reverse-linked-list-ii) \
@@ -86,6 +93,8 @@ Leetcode solutions(Golang)
 [136-single-number](https://github.com/akankshakumari393/leetcode/tree/master/136-single-number) \
 [144-binary-tree-preorder-traversal](https://github.com/akankshakumari393/leetcode/tree/master/144-binary-tree-preorder-traversal) \
 [145-binary-tree-postorder-traversal](https://github.com/akankshakumari393/leetcode/tree/master/145-binary-tree-postorder-traversal) \
+[153-find-minimum-in-rotated-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/153-find-minimum-in-rotated-sorted-array) \
+[162-find-peak-element](https://github.com/akankshakumari393/leetcode/tree/master/162-find-peak-element) \
 [169-majority-element](https://github.com/akankshakumari393/leetcode/tree/master/169-majority-element) \
 [199-binary-tree-right-side-view](https://github.com/akankshakumari393/leetcode/tree/master/199-binary-tree-right-side-view) \
 [200-number-of-islands](https://github.com/akankshakumari393/leetcode/tree/master/200-number-of-islands) \
@@ -107,6 +116,7 @@ Leetcode solutions(Golang)
 [344-reverse-string](https://github.com/akankshakumari393/leetcode/tree/master/344-reverse-string) \
 [350-intersection-of-two-arrays-ii](https://github.com/akankshakumari393/leetcode/tree/master/350-intersection-of-two-arrays-ii) \
 [387-first-unique-character-in-a-string](https://github.com/akankshakumari393/leetcode/tree/master/387-first-unique-character-in-a-string) \
+[410-split-array-largest-sum](https://github.com/akankshakumari393/leetcode/tree/master/410-split-array-largest-sum) \
 [461-hamming-distance](https://github.com/akankshakumari393/leetcode/tree/master/461-hamming-distance) \
 [520-detect-capital](https://github.com/akankshakumari393/leetcode/tree/master/520-detect-capital) \
 [540-single-element-in-a-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/540-single-element-in-a-sorted-array) \
@@ -123,10 +133,18 @@ Leetcode solutions(Golang)
 [792-number-of-matching-subsequences](https://github.com/akankshakumari393/leetcode/tree/master/792-number-of-matching-subsequences) \
 [804-unique-morse-code-words](https://github.com/akankshakumari393/leetcode/tree/master/804-unique-morse-code-words) \
 [858-mirror-reflection](https://github.com/akankshakumari393/leetcode/tree/master/858-mirror-reflection) \
+[875-koko-eating-bananas](https://github.com/akankshakumari393/leetcode/tree/master/875-koko-eating-bananas) \
 [876-middle-of-the-linked-list](https://github.com/akankshakumari393/leetcode/tree/master/876-middle-of-the-linked-list) \
 [890-find-and-replace-pattern](https://github.com/akankshakumari393/leetcode/tree/master/890-find-and-replace-pattern) \
 [895-maximum-frequency-stack](https://github.com/akankshakumari393/leetcode/tree/master/895-maximum-frequency-stack) \
 [997-find-the-town-judge](https://github.com/akankshakumari393/leetcode/tree/master/997-find-the-town-judge) \
+[1011-capacity-to-ship-packages-within-d-days](https://github.com/akankshakumari393/leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) \
+[1283-find-the-smallest-divisor-given-a-threshold](https://github.com/akankshakumari393/leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) \
+[1329-sort-the-matrix-diagonally](https://github.com/akankshakumari393/leetcode/tree/master/1329-sort-the-matrix-diagonally) \
+[1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/akankshakumari393/leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) \
+[1539-kth-missing-positive-number](https://github.com/akankshakumari393/leetcode/tree/master/1539-kth-missing-positive-number) \
+[1603-design-parking-system](https://github.com/akankshakumari393/leetcode/tree/master/1603-design-parking-system) \
 [1791-find-center-of-star-graph](https://github.com/akankshakumari393/leetcode/tree/master/1791-find-center-of-star-graph) \
 [2013-detect-squares](https://github.com/akankshakumari393/leetcode/tree/master/2013-detect-squares) \
-[2296-design-a-text-editor](https://github.com/akankshakumari393/leetcode/tree/master/2296-design-a-text-editor)
+[2296-design-a-text-editor](https://github.com/akankshakumari393/leetcode/tree/master/2296-design-a-text-editor) \
+[2351-first-letter-to-appear-twice](https://github.com/akankshakumari393/leetcode/tree/master/2351-first-letter-to-appear-twice)
