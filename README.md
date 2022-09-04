@@ -142,6 +142,7 @@ Leetcode solutions(Golang)
 [1011-capacity-to-ship-packages-within-d-days](https://github.com/akankshakumari393/leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) \
 [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/akankshakumari393/leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) \
 [1329-sort-the-matrix-diagonally](https://github.com/akankshakumari393/leetcode/tree/master/1329-sort-the-matrix-diagonally) \
+[1448-count-good-nodes-in-binary-tree](https://github.com/akankshakumari393/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) \
 [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/akankshakumari393/leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) \
 [1539-kth-missing-positive-number](https://github.com/akankshakumari393/leetcode/tree/master/1539-kth-missing-positive-number) \
 [1603-design-parking-system](https://github.com/akankshakumari393/leetcode/tree/master/1603-design-parking-system) \
