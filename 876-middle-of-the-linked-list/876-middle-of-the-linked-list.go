@@ -5,16 +5,12 @@
  *     Next *ListNode
  * }
  */
-// TWO POINTER APPROACH
 func middleNode(head *ListNode) *ListNode {
-    if head == nil || head.Next == nil {
-        return head
+    left := head
+    right := left
+    for right != nil && right.Next != nil {
+        left = left.Next
+        right = right.Next.Next
     }
-    slow := head
-    fast := head
-    for fast != nil && fast.Next != nil {
-        slow = slow.Next
-        fast = fast.Next.Next        
-    }
-    return slow
+    return left
 }
