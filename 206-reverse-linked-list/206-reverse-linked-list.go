@@ -6,19 +6,18 @@
  * }
  */
 func reverseList(head *ListNode) *ListNode {
-    if head == nil{
-		return nil
-	}
-	temp := head.Next
-	head.Next = nil
-	return reversePair(head, temp)
-}
-
-func reversePair(last *ListNode, head *ListNode) *ListNode {
-	if head == nil{
-		return last
-	}
-	temp := head.Next
-	head.Next = last
-	return reversePair(head, temp)
+    if head == nil {
+        return nil
+    }
+    var prev *ListNode // this needs to be nil
+    curr := head
+    for curr != nil {
+        // Store next
+       next := curr.Next
+       curr.Next = prev
+       prev = curr
+       curr = next
+    }
+    head = prev
+    return head
 }
