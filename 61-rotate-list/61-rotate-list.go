@@ -21,6 +21,7 @@ func rotateRight(head *ListNode, k int) *ListNode {
         k= k % count
     }
     fmt.Println(k)
+    // we need to find (length - k)th node from start
     k = count - k
     
     // creates a circular linked list
