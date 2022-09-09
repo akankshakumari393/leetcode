@@ -42,6 +42,7 @@ Leetcode solutions(Golang)
 [13-roman-to-integer](https://github.com/akankshakumari393/leetcode/tree/master/13-roman-to-integer) \
 [14-longest-common-prefix](https://github.com/akankshakumari393/leetcode/tree/master/14-longest-common-prefix) \
 [15-3sum](https://github.com/akankshakumari393/leetcode/tree/master/15-3sum) \
+[19-remove-nth-node-from-end-of-list](https://github.com/akankshakumari393/leetcode/tree/master/19-remove-nth-node-from-end-of-list) \
 [20-valid-parentheses](https://github.com/akankshakumari393/leetcode/tree/master/20-valid-parentheses) \
 [21-merge-two-sorted-lists](https://github.com/akankshakumari393/leetcode/tree/master/21-merge-two-sorted-lists) \
 [26-remove-duplicates-from-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/26-remove-duplicates-from-sorted-array) \
@@ -91,9 +92,13 @@ Leetcode solutions(Golang)
 [130-surrounded-regions](https://github.com/akankshakumari393/leetcode/tree/master/130-surrounded-regions) \
 [133-clone-graph](https://github.com/akankshakumari393/leetcode/tree/master/133-clone-graph) \
 [136-single-number](https://github.com/akankshakumari393/leetcode/tree/master/136-single-number) \
+[138-copy-list-with-random-pointer](https://github.com/akankshakumari393/leetcode/tree/master/138-copy-list-with-random-pointer) \
+[141-linked-list-cycle](https://github.com/akankshakumari393/leetcode/tree/master/141-linked-list-cycle) \
+[142-linked-list-cycle-ii](https://github.com/akankshakumari393/leetcode/tree/master/142-linked-list-cycle-ii) \
 [144-binary-tree-preorder-traversal](https://github.com/akankshakumari393/leetcode/tree/master/144-binary-tree-preorder-traversal) \
 [145-binary-tree-postorder-traversal](https://github.com/akankshakumari393/leetcode/tree/master/145-binary-tree-postorder-traversal) \
 [153-find-minimum-in-rotated-sorted-array](https://github.com/akankshakumari393/leetcode/tree/master/153-find-minimum-in-rotated-sorted-array) \
+[160-intersection-of-two-linked-lists](https://github.com/akankshakumari393/leetcode/tree/master/160-intersection-of-two-linked-lists) \
 [162-find-peak-element](https://github.com/akankshakumari393/leetcode/tree/master/162-find-peak-element) \
 [169-majority-element](https://github.com/akankshakumari393/leetcode/tree/master/169-majority-element) \
 [199-binary-tree-right-side-view](https://github.com/akankshakumari393/leetcode/tree/master/199-binary-tree-right-side-view) \
@@ -106,6 +111,7 @@ Leetcode solutions(Golang)
 [219-contains-duplicate-ii](https://github.com/akankshakumari393/leetcode/tree/master/219-contains-duplicate-ii) \
 [226-invert-binary-tree](https://github.com/akankshakumari393/leetcode/tree/master/226-invert-binary-tree) \
 [229-majority-element-ii](https://github.com/akankshakumari393/leetcode/tree/master/229-majority-element-ii) \
+[234-palindrome-linked-list](https://github.com/akankshakumari393/leetcode/tree/master/234-palindrome-linked-list) \
 [235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/akankshakumari393/leetcode/tree/master/235-lowest-common-ancestor-of-a-binary-search-tree) \
 [240-search-a-2d-matrix-ii](https://github.com/akankshakumari393/leetcode/tree/master/240-search-a-2d-matrix-ii) \
 [242-valid-anagram](https://github.com/akankshakumari393/leetcode/tree/master/242-valid-anagram)
@@ -113,6 +119,7 @@ Leetcode solutions(Golang)
 [287-find-the-duplicate-number](https://github.com/akankshakumari393/leetcode/tree/master/287-find-the-duplicate-number) \
 [289-game-of-life](https://github.com/akankshakumari393/leetcode/tree/master/289-game-of-life) \
 [300-longest-increasing-subsequence](https://github.com/akankshakumari393/leetcode/tree/master/300-longest-increasing-subsequence) \
+[328-odd-even-linked-list](https://github.com/akankshakumari393/leetcode/tree/master/328-odd-even-linked-list) \
 [344-reverse-string](https://github.com/akankshakumari393/leetcode/tree/master/344-reverse-string) \
 [350-intersection-of-two-arrays-ii](https://github.com/akankshakumari393/leetcode/tree/master/350-intersection-of-two-arrays-ii) \
 [387-first-unique-character-in-a-string](https://github.com/akankshakumari393/leetcode/tree/master/387-first-unique-character-in-a-string) \
