@@ -1,5 +1,6 @@
 func generateParenthesis(n int) []string {
     res := []string{}
+    // number of paranthesis left to be printed
 	backtrack(&res, "", n, n)
 	return res
 }
