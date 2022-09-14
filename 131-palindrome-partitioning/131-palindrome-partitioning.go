@@ -1,21 +1,21 @@
 func partition(s string) [][]string {
 	result := [][]string{}
 	current := []string{}
-	backtrack(s, 0, &current, &result)
+	backtrack(0, s, &current, &result)
 	return result
 }
 
-func backtrack(s string, begin int, current *[]string, result *[][]string) {
-    if begin >= len(s) {
+func backtrack(pos int, s string, current *[]string, result *[][]string) {
+    if pos >= len(s) {
         *result = append(*result, append([]string{}, *current...))
     }
     // Candidate substring is [begin, end), includes begin, excludes end.
-    for end := begin + 1; end <= len(s); end++ {
+    for end := pos ; end < len(s); end++ {
         // You can save result for each substring in a dp[n][n] to
         // avoid repeating check in the future.
-        if isPalindrome(s[begin:end]) {
-            *current = append(*current, s[begin:end])
-            backtrack(s, end, current, result)
+        if isPalindrome(s[pos:end+1]) {
+            *current = append(*current, s[pos:end+1])
+            backtrack(end+1, s, current, result)
             *current = (*current)[:len(*current)-1]
         }
     }
